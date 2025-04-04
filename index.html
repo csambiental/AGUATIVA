@@ -215,9 +215,9 @@
     map.addControl(new mapboxgl.ScaleControl());
 
     map.on('load', () => {
-      map.addSource('trechos_atualizado', {
+      map.addSource('trechos', {
         'type': 'geojson',
-        'data': 'trechos_atualizado.json'
+        'data': 'trechos.json'
       });
 
       map.addSource('limite', {
@@ -226,20 +226,20 @@
       });
 
       // Log para depuração: exibir os valores de category
-      fetch('trechos_atualizado.json')
+      fetch('trechos.json')
         .then(response => response.json())
         .then(data => {
           const categories = data.features.map(feature => feature.properties.category);
-          console.log('Valores de category no trechos_atualizado.json:', [...new Set(categories)]);
+          console.log('Valores de category no trechos.json:', [...new Set(categories)]);
         })
         .catch(error => {
-          console.error('Erro ao carregar trechos_atualizado.json:', error);
+          console.error('Erro ao carregar trechos.json:', error);
         });
 
       map.addLayer({
-        'id': 'trechos_atualizado-pontos',
+        'id': 'trechos-pontos',
         'type': 'circle',
-        'source': 'trechos_atualizado',
+        'source': 'trechos',
         'paint': {
           'circle-radius': 6,
           'circle-color': [
@@ -306,10 +306,10 @@
       document.getElementById('map-style').addEventListener('change', (e) => {
         map.setStyle(e.target.value);
         map.on('styledata', () => {
-          if (!map.getSource('trechos_atualizado')) {
-            map.addSource('trechos_atualizado', {
+          if (!map.getSource('trechos')) {
+            map.addSource('trechos', {
               'type': 'geojson',
-              'data': 'trechos_atualizado.json'
+              'data': 'trechos.json'
             });
           }
           if (!map.getSource('limite')) {
@@ -318,11 +318,11 @@
               'data': 'limite_propriedade.geojson'
             });
           }
-          if (!map.getLayer('trechos_atualizado-pontos')) {
+          if (!map.getLayer('trechos-pontos')) {
             map.addLayer({
-              'id': 'trechos_atualizado-pontos',
+              'id': 'trechos-pontos',
               'type': 'circle',
-              'source': 'trechos_atualizado',
+              'source': 'trechos',
               'paint': {
                 'circle-radius': 6,
                 'circle-color': [
