@@ -152,7 +152,7 @@
         font-size: 12px;
       }
       #map-container {
-        height: calc(100vh - 60px); /* Ajusta a altura do mapa para o cabeçalho menor */
+        height: calc(100vh - 60px);
       }
       #toggle-controls {
         top: 5px;
@@ -205,9 +205,8 @@
       .mapboxgl-popup-content p {
         font-size: 10px;
       }
-      /* Ajusta controles do Mapbox (zoom, fullscreen, etc.) */
       .mapboxgl-ctrl-group {
-        transform: scale(0.8); /* Reduz o tamanho dos botões de controle */
+        transform: scale(0.8);
         bottom: 10px !important;
         right: 10px !important;
       }
@@ -280,6 +279,11 @@
         <div class="legend-color" style="background-color: #000000; opacity: 0.2; border: 1px solid #ff0000;"></div>
         <span>Limite da Propriedade</span>
       </div>
+      <!-- Adicionado: Legenda para o segundo limite -->
+      <div class="legend-item">
+        <div class="legend-color" style="background-color: #000000; opacity: 0.2; border: 1px solid #0000ff;"></div>
+        <span>Limite da Propriedade 2</span>
+      </div>
     </div>
     <div id="controls">
       <button id="center-map">Centralizar Mapa</button>
@@ -350,6 +354,12 @@
         'data': 'limite_propriedade.geojson'
       });
 
+      // Adicionado: Fonte para o segundo limite
+      map.addSource('limite2', {
+        'type': 'geojson',
+        'data': 'limite_propriedade_2.geojson'
+      });
+
       fetch('trechos.json')
         .then(response => response.json())
         .then(data => {
@@ -404,6 +414,28 @@
         }
       });
 
+      // Adicionado: Camadas para o segundo limite
+      map.addLayer({
+        'id': 'limite-propriedade-2',
+        'type': 'fill',
+        'source': 'limite2',
+        'paint': {
+          'fill-color': '#000000',
+          'fill-opacity': 0.2,
+          'fill-outline-color': '#0000ff' // Azul para diferenciar
+        }
+      });
+
+      map.addLayer({
+        'id': 'limite-propriedade-2-borda',
+        'type': 'line',
+        'source': 'limite2',
+        'paint': {
+          'line-color': '#0000ff',
+          'line-width': 2
+        }
+      });
+
       new mapboxgl.Marker()
         .setLngLat([-50.7315, -23.2635])
         .setPopup(new mapboxgl.Popup().setHTML('<h3>Bem-vindo!</h3><p>Explore as árvores mapeadas e o limite da propriedade.</p>'))
@@ -430,6 +462,13 @@
             map.addSource('limite', {
               'type': 'geojson',
               'data': 'limite_propriedade.geojson'
+            });
+          }
+          // Adicionado: Re-adicionar fonte do segundo limite após mudança de estilo
+          if (!map.getSource('limite2')) {
+            map.addSource('limite2', {
+              'type': 'geojson',
+              'data': 'limite_propriedade_2.geojson'
             });
           }
           if (!map.getLayer('trechos-pontos')) {
@@ -479,6 +518,30 @@
               }
             });
           }
+          // Adicionado: Re-adicionar camadas do segundo limite após mudança de estilo
+          if (!map.getLayer('limite-propriedade-2')) {
+            map.addLayer({
+              'id': 'limite-propriedade-2',
+              'type': 'fill',
+              'source': 'limite2',
+              'paint': {
+                'fill-color': '#0000ff',
+                'fill-opacity': 0.2,
+                'fill-outline-color': '#0000ff'
+              }
+            });
+          }
+          if (!map.getLayer('limite-propriedade-2-borda')) {
+            map.addLayer({
+              'id': 'limite-propriedade-2-borda',
+              'type': 'line',
+              'source': 'limite2',
+              'paint': {
+                'line-color': '#0000ff',
+                'line-width': 2
+              }
+            });
+          }
         });
       });
 
@@ -522,10 +585,13 @@
         map.setLayoutProperty('trechos-pontos', 'visibility', visibility);
       });
 
+      // Modificado: Controle de visibilidade para ambos os limites
       document.getElementById('toggle-boundary').addEventListener('change', (e) => {
         const visibility = e.target.checked ? 'visible' : 'none';
         map.setLayoutProperty('limite-propriedade', 'visibility', visibility);
         map.setLayoutProperty('limite-propriedade-borda', 'visibility', visibility);
+        map.setLayoutProperty('limite-propriedade-2', 'visibility', visibility);
+        map.setLayoutProperty('limite-propriedade-2-borda', 'visibility', visibility);
       });
 
       map.on('click', 'trechos-pontos', (e) => {
@@ -567,6 +633,18 @@
           .addTo(map);
       });
 
+      // Adicionado: Popup para o segundo limite
+      map.on('click', 'limite-propriedade-2', (e) => {
+        const coordinates = e.features[0].geometry.coordinates[0][0];
+        const nom_tema = e.features[0].properties.nom_tema;
+        const num_area = e.features[0].properties.num_area;
+
+        new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(`<h3>${nom_tema}</h3><p>Área: ${num_area} ha</p>`)
+          .addTo(map);
+      });
+
       map.on('mouseenter', 'trechos-pontos', () => {
         map.getCanvas().style.cursor = 'pointer';
       });
@@ -578,6 +656,14 @@
         map.getCanvas().style.cursor = 'pointer';
       });
       map.on('mouseleave', 'limite-propriedade', () => {
+        map.getCanvas().style.cursor = '';
+      });
+
+      // Adicionado: Cursor para o segundo limite
+      map.on('mouseenter', 'limite-propriedade-2', () => {
+        map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'limite-propriedade-2', () => {
         map.getCanvas().style.cursor = '';
       });
     });
