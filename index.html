@@ -443,17 +443,6 @@
       });
 
       map.addLayer({
-        'id': 'limite-propriedade-3',
-        'type': 'fill',
-        'source': 'limite3',
-        'paint': {
-          'fill-color': '#000000',
-          'fill-opacity': 0.2,
-          'fill-outline-color': '#00ff00'
-        }
-      });
-
-      map.addLayer({
         'id': 'limite-propriedade-3-borda',
         'type': 'line',
         'source': 'limite3',
@@ -573,18 +562,6 @@
               }
             });
           }
-          if (!map.getLayer('limite-propriedade-3')) {
-            map.addLayer({
-              'id': 'limite-propriedade-3',
-              'type': 'fill',
-              'source': 'limite3',
-              'paint': {
-                'fill-color': '#000000',
-                'fill-opacity': 0.2,
-                'fill-outline-color': '#00ff00'
-              }
-            });
-          }
           if (!map.getLayer('limite-propriedade-3-borda')) {
             map.addLayer({
               'id': 'limite-propriedade-3-borda',
@@ -645,7 +622,6 @@
         map.setLayoutProperty('limite-propriedade-borda', 'visibility', visibility);
         map.setLayoutProperty('limite-propriedade-2', 'visibility', visibility);
         map.setLayoutProperty('limite-propriedade-2-borda', 'visibility', visibility);
-        map.setLayoutProperty('limite-propriedade-3', 'visibility', visibility);
         map.setLayoutProperty('limite-propriedade-3-borda', 'visibility', visibility);
       });
 
@@ -699,7 +675,7 @@
           .addTo(map);
       });
 
-      map.on('click', 'limite-propriedade-3', (e) => {
+      map.on('click', 'limite-propriedade-3-borda', (e) => {
         const coordinates = e.features[0].geometry.coordinates[0][0];
         const nom_tema = e.features[0].properties.nom_tema;
         const num_area = e.features[0].properties.num_area;
@@ -731,10 +707,10 @@
         map.getCanvas().style.cursor = '';
       });
 
-      map.on('mouseenter', 'limite-propriedade-3', () => {
+      map.on('mouseenter', 'limite-propriedade-3-borda', () => {
         map.getCanvas().style.cursor = 'pointer';
       });
-      map.on('mouseleave', 'limite-propriedade-3', () => {
+      map.on('mouseleave', 'limite-propriedade-3-borda', () => {
         map.getCanvas().style.cursor = '';
       });
     });
