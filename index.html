@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       margin: 0;
@@ -63,41 +64,87 @@
       margin-right: 5px;
       border: 1px solid #ccc;
     }
+
+    
     #controls {
       position: absolute;
       top: 50px;
       left: 10px;
-      background-color: rgba(255, 255, 255, 0.9);
-      padding: 10px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      background-color: rgba(255, 255, 255, 0.95); /* Fundo mais suave */
+      padding: 15px; /* Mais espaço interno */
+      border-radius: 8px; /* Bordas mais arredondadas */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra mais suave */
       z-index: 1;
       max-height: 50vh;
       overflow-y: auto;
+      width: 200px; /* Largura fixa para consistência */
+      border: 1px solid #e0e0e0; /* Borda sutil */
     }
+
     #controls label {
       display: block;
-      margin-bottom: 5px;
-      font-size: 12px;
+      margin-bottom: 8px; /* Mais espaço entre os labels */
+      font-size: 13px;
+      color: #333; /* Cor mais escura para o texto */
+      font-weight: 500; /* Leve destaque no texto */
     }
-    #controls select, #controls input, #controls button {
-      margin-bottom: 10px;
+
+    #controls select,
+    #controls input[type="number"] {
+      margin-bottom: 12px;
       font-size: 12px;
       width: 100%;
       box-sizing: border-box;
+      padding: 8px; /* Mais espaço interno nos inputs */
+      border: 1px solid #d0d0d0; /* Borda mais suave */
+      border-radius: 5px; /* Bordas arredondadas */
+      background-color: #f9f9f9; /* Fundo claro */
+      transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
     }
+
+    #controls select:focus,
+    #controls input[type="number"]:focus {
+      outline: none;
+      border-color: #2c3e50; /* Cor de destaque ao focar */
+      box-shadow: 0 0 5px rgba(44, 62, 80, 0.3); /* Sombra ao focar */
+    }
+
     #controls button {
       display: block;
-      padding: 5px;
+      padding: 8px;
       cursor: pointer;
-      background-color: #2c3e50;
+      background-color: #2c3e50; /* Cor de fundo do botão */
       color: white;
       border: none;
-      border-radius: 3px;
+      border-radius: 5px;
+      font-size: 13px;
+      font-weight: 500;
+      transition: background-color 0.3s ease; /* Transição suave no hover */
     }
+
     #controls button:hover {
-      background-color: #34495e;
+      background-color: #34495e; /* Cor mais clara no hover */
     }
+
+    #controls input[type="checkbox"] {
+      margin-right: 5px;
+      accent-color: #2c3e50; /* Cor do checkbox */
+    }
+
+#controls input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #2c3e50; /* Cor do checkbox */
+}
+
+#controls label i {
+  margin-right: 5px;
+  color: #2c3e50;
+}
+
+#controls button i {
+  margin-right: 5px;
+}
+    
     #toggle-controls {
       position: absolute;
       top: 10px;
@@ -166,16 +213,18 @@
         right: 5px;
         width: auto;
         max-width: 90%;
-        padding: 8px;
-        font-size: 10px;
+        padding: 10px;
+        font-size: 11px;
         max-height: 40vh;
       }
       #controls label {
-        font-size: 10px;
+        font-size: 11px;
       }
-      #controls select, #controls input, #controls button {
-        font-size: 10px;
-        padding: 3px;
+      #controls select,
+      #controls input,
+      #controls button {
+        font-size: 11px;
+        padding: 6px;
       }
       #legend {
         top: 40px;
@@ -228,7 +277,7 @@
       }
       #controls, #legend {
         max-width: 95%;
-        padding: 5px;
+        padding: 8px;
       }
       .mapboxgl-popup-content {
         max-width: 90vw;
@@ -289,9 +338,9 @@
       </div>
     </div>
     <div id="controls">
-      <button id="center-map">Centralizar Mapa</button>
+      <button id="center-map"><i class="fas fa-map-marker-alt"></i> Centralizar Mapa</button>
       <label>
-        Estilo do Mapa:
+        <i class="fas fa-map"></i> Estilo do Mapa:
         <select id="map-style">
           <option value="mapbox://styles/mapbox/satellite-v9">Satélite</option>
           <option value="mapbox://styles/mapbox/streets-v11">Ruas</option>
@@ -300,7 +349,7 @@
         </select>
       </label>
       <label>
-        Filtrar por Categoria:
+        <i class="fas fa-filter"></i> Filtrar por Categoria:
         <select id="category-filter">
           <option value="all">Todas</option>
           <option value="ADM/ÁGUA MINERAL">ADM/ÁGUA MINERAL (Árvores 22 a 47)</option>
@@ -313,15 +362,15 @@
         </select>
       </label>
       <label>
-        Filtrar por ID:
+        <i class="fas fa-id-badge"></i> Filtrar por ID:
         <input type="number" id="id-filter" placeholder="Digite o ID" min="1">
       </label>
       <label>
-        Altura Mínima (m):
+        <i class="fas fa-ruler-vertical"></i> Altura Mínima (m):
         <input type="number" id="height-min" value="0" min="0" step="0.1">
       </label>
       <label>
-        Altura Máxima (m):
+        <i class="fas fa-ruler-vertical"></i> Altura Máxima (m):
         <input type="number" id="height-max" value="20" min="0" step="0.1">
       </label>
       <label>
