@@ -1,0 +1,2525 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73118,
+          -23.26805
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26805",
+        "LONGITUDE": "-50.73118",
+        "species": "Canjarana",
+        "nome_cientifico": "Cabralea oblongifolia",
+        "cap": 1.0,
+        "height": 7.0,
+        "dap": 0.318,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73105,
+          -23.26817
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26817",
+        "LONGITUDE": "-50.73105",
+        "species": "Canafístula",
+        "nome_cientifico": "Peltophorum dubium",
+        "cap": 1.2,
+        "height": 12.0,
+        "dap": 0.382,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.731,
+          -23.26833
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26833",
+        "LONGITUDE": "-50.731",
+        "species": "Sapuva",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 1.0,
+        "height": 7.0,
+        "dap": 0.318,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.731,
+          -23.26767
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26767",
+        "LONGITUDE": "-50.731",
+        "species": "Sibipiruna",
+        "nome_cientifico": "Cenostigma pluviosum",
+        "cap": 1.6,
+        "height": 9.0,
+        "dap": 0.509,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73148,
+          -23.26808
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26808",
+        "LONGITUDE": "-50.73148",
+        "species": "Mutambo",
+        "nome_cientifico": "Guazuma ulmifolia",
+        "cap": 1.2,
+        "height": 15.0,
+        "dap": 0.382,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73178,
+          -23.26858
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26858",
+        "LONGITUDE": "-50.73178",
+        "species": "Sapuvão",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 2.2,
+        "height": 16.0,
+        "dap": 0.7,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73182,
+          -23.26882
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26882",
+        "LONGITUDE": "-50.73182",
+        "species": "Feijão Cru",
+        "nome_cientifico": "Dalbergia frutescens",
+        "cap": 2.2,
+        "height": 14.0,
+        "dap": 0.7,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73177,
+          -23.26863
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26863",
+        "LONGITUDE": "-50.73177",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 15.0,
+        "dap": 0.318,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7318,
+          -23.26882
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "category": "Acesso Principal e Ilha da Loja",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26882",
+        "LONGITUDE": "-50.7318",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 15.0,
+        "dap": 0.318,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73148,
+          -23.26883
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "category": "Recepção",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26883",
+        "LONGITUDE": "-50.73148",
+        "species": "Ipê Roxo",
+        "nome_cientifico": "Tabebuia impetiginosa",
+        "cap": 1.0,
+        "height": 12.0,
+        "dap": 0.318,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73133,
+          -23.26902
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "category": "Recepção",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26902",
+        "LONGITUDE": "-50.73133",
+        "species": "Ipê Roxo",
+        "nome_cientifico": "Tabebuia impetiginosa",
+        "cap": 1.0,
+        "height": 11.0,
+        "dap": 0.318,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73135,
+          -23.26893
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "category": "Piscina Coberta",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26893",
+        "LONGITUDE": "-50.73135",
+        "species": "Sapuvão",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 2.5,
+        "height": 16.0,
+        "dap": 0.796,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73242,
+          -23.269
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "category": "Vila Bromélia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.269",
+        "LONGITUDE": "-50.73242",
+        "species": "Sapuvão",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 1.4,
+        "height": 9.0,
+        "dap": 0.446,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73228,
+          -23.26893
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "category": "Vila Bromélia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26893",
+        "LONGITUDE": "-50.73228",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 14.0,
+        "dap": 0.318,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73247,
+          -23.26907
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "category": "Vila Bromélia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26907",
+        "LONGITUDE": "-50.73247",
+        "species": "Araruva",
+        "nome_cientifico": "Centrolobium tomentosum",
+        "cap": 1.2,
+        "height": 8.0,
+        "dap": 0.382,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7327,
+          -23.26873
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "category": "Vila Orquidéa",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26873",
+        "LONGITUDE": "-50.7327",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 2.0,
+        "height": 8.0,
+        "dap": 0.637,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73242,
+          -23.26878
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "category": "Vila Orquidéa",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26878",
+        "LONGITUDE": "-50.73242",
+        "species": "Canjarana",
+        "nome_cientifico": "Cabralea oblongifolia",
+        "cap": 1.4,
+        "height": 16.0,
+        "dap": 0.446,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73228,
+          -23.26882
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "category": "Vila Orquidéa",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26882",
+        "LONGITUDE": "-50.73228",
+        "species": "Araruva",
+        "nome_cientifico": "Centrolobium tomentosum",
+        "cap": 1.4,
+        "height": 6.0,
+        "dap": 0.446,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73228,
+          -23.26878
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "category": "Vila Orquidéa",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26878",
+        "LONGITUDE": "-50.73228",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 2.0,
+        "height": 10.0,
+        "dap": 0.637,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73207,
+          -23.26883
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "category": "Vila Orquidéa",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26883",
+        "LONGITUDE": "-50.73207",
+        "species": "Angico Branco",
+        "nome_cientifico": "Anadenanthera colubrina",
+        "cap": 1.4,
+        "height": 7.0,
+        "dap": 0.446,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73228,
+          -23.26847
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "category": "Vila Jasmim",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26847",
+        "LONGITUDE": "-50.73228",
+        "species": "Cheflerão",
+        "nome_cientifico": "Schefflera actinophylla",
+        "cap": 2.2,
+        "height": 8.0,
+        "dap": 0.7,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73243,
+          -23.26825
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "category": "Vila Jasmim",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26825",
+        "LONGITUDE": "-50.73243",
+        "species": "Grevilhea",
+        "nome_cientifico": "Grevillea robusta",
+        "cap": 1.0,
+        "height": 12.0,
+        "dap": 0.318,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73225,
+          -23.26833
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "category": "Vila Jasmim",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26833",
+        "LONGITUDE": "-50.73225",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 2.2,
+        "height": 7.5,
+        "dap": 0.7,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7322,
+          -23.26827
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "category": "-",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26827",
+        "LONGITUDE": "-50.7322",
+        "species": "Caviuna",
+        "nome_cientifico": "Machaerium scleroxylon",
+        "cap": 3.0,
+        "height": 12.0,
+        "dap": 0.955,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73208,
+          -23.26813
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "category": "Vila Jasmim",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26813",
+        "LONGITUDE": "-50.73208",
+        "species": "Primavera",
+        "nome_cientifico": "Bougainvillea spectabilis",
+        "cap": 1.8,
+        "height": 9.0,
+        "dap": 0.573,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7325,
+          -23.2678
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "category": "Vila Jasmim",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2678",
+        "LONGITUDE": "-50.7325",
+        "species": "Sapuvão",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 1.0,
+        "height": 9.0,
+        "dap": 0.318,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73195,
+          -23.2678
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "category": "Vila Azaléia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2678",
+        "LONGITUDE": "-50.73195",
+        "species": "Araruva",
+        "nome_cientifico": "Centrolobium tomentosum",
+        "cap": 2.2,
+        "height": 12.0,
+        "dap": 0.7,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73177,
+          -23.26785
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "category": "Vila Azaléia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26785",
+        "LONGITUDE": "-50.73177",
+        "species": "Leiteiro",
+        "nome_cientifico": "Tabernaemontana hystrix",
+        "cap": 0.9,
+        "height": 8.0,
+        "dap": 0.287,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73175,
+          -23.26782
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "category": "Vila Azaléia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26782",
+        "LONGITUDE": "-50.73175",
+        "species": "Sapuvão",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 0.7,
+        "height": 10.0,
+        "dap": 0.223,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73182,
+          -23.26762
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "category": "Vila Azaléia",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26762",
+        "LONGITUDE": "-50.73182",
+        "species": "Feijão Cru",
+        "nome_cientifico": "Dalbergia frutescens",
+        "cap": 0.9,
+        "height": 16.0,
+        "dap": 0.287,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73185,
+          -23.26737
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "category": "Vila Lírios",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26737",
+        "LONGITUDE": "-50.73185",
+        "species": "Leucena",
+        "nome_cientifico": "Leucaena leucocephala",
+        "cap": 0.9,
+        "height": 12.0,
+        "dap": 0.287,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73205,
+          -23.26737
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "category": "Vila Lírios",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26737",
+        "LONGITUDE": "-50.73205",
+        "species": "Louro Pardo",
+        "nome_cientifico": "Cordia trichotoma",
+        "cap": 1.6,
+        "height": 15.0,
+        "dap": 0.509,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7325,
+          -23.26773
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "category": "Bosque",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26773",
+        "LONGITUDE": "-50.7325",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 12.0,
+        "dap": 0.318,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73213,
+          -23.26802
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "category": "Bosque",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26802",
+        "LONGITUDE": "-50.73213",
+        "species": "Árvore Seca",
+        "nome_cientifico": "-",
+        "cap": 2.0,
+        "height": 8.5,
+        "dap": 0.637,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73362,
+          -23.25654
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25654",
+        "LONGITUDE": "-50.73362",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.4,
+        "height": 6.5,
+        "dap": 0.127,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73215,
+          -23.25759
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25759",
+        "LONGITUDE": "-50.73215",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 4.0,
+        "dap": 0.318,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73175,
+          -23.25807
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25807",
+        "LONGITUDE": "-50.73175",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.4,
+        "height": 7.0,
+        "dap": 0.127,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73159,
+          -23.25831
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25831",
+        "LONGITUDE": "-50.73159",
+        "species": "Sapuva",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 0.8,
+        "height": 8.0,
+        "dap": 0.255,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73144,
+          -23.25849
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25849",
+        "LONGITUDE": "-50.73144",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.5,
+        "height": 5.0,
+        "dap": 0.159,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73132,
+          -23.25863
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25863",
+        "LONGITUDE": "-50.73132",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 5.0,
+        "dap": 0.255,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73132,
+          -23.25866
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.25866",
+        "LONGITUDE": "-50.73132",
+        "species": "Açoita-Cavalo",
+        "nome_cientifico": "Luehea divaricata",
+        "cap": 1.2,
+        "height": 8.0,
+        "dap": 0.382,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73005,
+          -23.26017
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26017",
+        "LONGITUDE": "-50.73005",
+        "species": "Eucalipto",
+        "nome_cientifico": "Eucalyptus tereticornis",
+        "cap": 1.8,
+        "height": 15.0,
+        "dap": 0.573,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72987,
+          -23.26018
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26018",
+        "LONGITUDE": "-50.72987",
+        "species": "Eucalipto",
+        "nome_cientifico": "Eucalyptus tereticornis",
+        "cap": 1.8,
+        "height": 13.0,
+        "dap": 0.573,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72991,
+          -23.2606
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2606",
+        "LONGITUDE": "-50.72991",
+        "species": "Mutambo",
+        "nome_cientifico": "Guazuma ulmifolia",
+        "cap": 0.8,
+        "height": 11.0,
+        "dap": 0.255,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72997,
+          -23.2606
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2606",
+        "LONGITUDE": "-50.72997",
+        "species": "Angico",
+        "nome_cientifico": "Anadenanthera macrocarpa",
+        "cap": 1.2,
+        "height": 10.0,
+        "dap": 0.382,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73005,
+          -23.26095
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26095",
+        "LONGITUDE": "-50.73005",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.5,
+        "height": 6.5,
+        "dap": 0.159,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73003,
+          -23.26093
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "category": "Via de Acesso Trevo/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26093",
+        "LONGITUDE": "-50.73003",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.2,
+        "height": 6.0,
+        "dap": 0.064,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72739,
+          -23.26129
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "category": "Privilege",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26129",
+        "LONGITUDE": "-50.72739",
+        "species": "Sapuva",
+        "nome_cientifico": "Machaerium stipitatum",
+        "cap": 2.4,
+        "height": 10.0,
+        "dap": 0.764,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72814,
+          -23.26091
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "category": "Via de Acesso Privilege/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26091",
+        "LONGITUDE": "-50.72814",
+        "species": "Pinheiro",
+        "nome_cientifico": "Pinus",
+        "cap": 1.6,
+        "height": 12.0,
+        "dap": 0.509,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72787,
+          -23.26173
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "category": "Via de Acesso Privilege/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26173",
+        "LONGITUDE": "-50.72787",
+        "species": "Mutambo",
+        "nome_cientifico": "Guazuma ulmifolia",
+        "cap": 0.5,
+        "height": 10.0,
+        "dap": 0.159,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72787,
+          -23.26189
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "category": "Via de Acesso Privilege/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26189",
+        "LONGITUDE": "-50.72787",
+        "species": "Mutambo",
+        "nome_cientifico": "Guazuma ulmifolia",
+        "cap": 0.8,
+        "height": 9.0,
+        "dap": 0.255,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72917,
+          -23.26143
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "category": "Via de Acesso Privilege/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26143",
+        "LONGITUDE": "-50.72917",
+        "species": "Mutambo",
+        "nome_cientifico": "Guazuma ulmifolia",
+        "cap": 0.7,
+        "height": 8.0,
+        "dap": 0.223,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72921,
+          -23.26141
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "category": "Via de Acesso Privilege/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26141",
+        "LONGITUDE": "-50.72921",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 8.0,
+        "dap": 0.255,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7298,
+          -23.26106
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "category": "Via de Acesso Privilege/Portaria",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26106",
+        "LONGITUDE": "-50.7298",
+        "species": "Canafístula",
+        "nome_cientifico": "Peltophorum dubium",
+        "cap": 0.8,
+        "height": 11.0,
+        "dap": 0.255,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.72931,
+          -23.26176
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "category": "Via de Acesso Portaria/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26176",
+        "LONGITUDE": "-50.72931",
+        "species": "Tipuana",
+        "nome_cientifico": "Tipuana tipu",
+        "cap": 0.5,
+        "height": 6.0,
+        "dap": 0.159,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73334,
+          -23.26656
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26656",
+        "LONGITUDE": "-50.73334",
+        "species": "Abacateiro",
+        "nome_cientifico": "Persea americana",
+        "cap": 1.7,
+        "height": 9.0,
+        "dap": 0.541,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73338,
+          -23.26662
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26662",
+        "LONGITUDE": "-50.73338",
+        "species": "Jaca",
+        "nome_cientifico": "Artocarpus heterophyllus",
+        "cap": 2.4,
+        "height": 8.0,
+        "dap": 0.764,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73343,
+          -23.26667
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26667",
+        "LONGITUDE": "-50.73343",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.5,
+        "height": 7.0,
+        "dap": 0.159,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73336,
+          -23.26671
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26671",
+        "LONGITUDE": "-50.73336",
+        "species": "Abacateiro",
+        "nome_cientifico": "Persea americana",
+        "cap": 1.5,
+        "height": 6.0,
+        "dap": 0.477,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73343,
+          -23.26676
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26676",
+        "LONGITUDE": "-50.73343",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.4,
+        "height": 6.0,
+        "dap": 0.446,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73341,
+          -23.26711
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26711",
+        "LONGITUDE": "-50.73341",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.7,
+        "height": 12.0,
+        "dap": 0.541,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73336,
+          -23.26751
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26751",
+        "LONGITUDE": "-50.73336",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 8.0,
+        "dap": 0.477,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73338,
+          -23.26753
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26753",
+        "LONGITUDE": "-50.73338",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 7.0,
+        "dap": 0.477,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73343,
+          -23.26823
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26823",
+        "LONGITUDE": "-50.73343",
+        "species": "Louro Pardo",
+        "nome_cientifico": "Cordia trichotoma",
+        "cap": 0.5,
+        "height": 8.0,
+        "dap": 0.159,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73322,
+          -23.2689
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2689",
+        "LONGITUDE": "-50.73322",
+        "species": "Mutambo",
+        "nome_cientifico": "Guazuma ulmifolia",
+        "cap": 0.4,
+        "height": 10.0,
+        "dap": 0.127,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73327,
+          -23.26879
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26879",
+        "LONGITUDE": "-50.73327",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 10.0,
+        "dap": 0.318,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73283,
+          -23.26954
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26954",
+        "LONGITUDE": "-50.73283",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 8.0,
+        "dap": 0.255,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.733,
+          -23.26899
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26899",
+        "LONGITUDE": "-50.733",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 15.0,
+        "dap": 0.318,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73298,
+          -23.26936
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26936",
+        "LONGITUDE": "-50.73298",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.9,
+        "height": 15.0,
+        "dap": 0.287,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73294,
+          -23.26918
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26918",
+        "LONGITUDE": "-50.73294",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.1,
+        "height": 12.0,
+        "dap": 0.35,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73291,
+          -23.26929
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26929",
+        "LONGITUDE": "-50.73291",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.7,
+        "height": 14.0,
+        "dap": 0.223,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73287,
+          -23.26905
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26905",
+        "LONGITUDE": "-50.73287",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.7,
+        "height": 14.0,
+        "dap": 0.223,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73285,
+          -23.2693
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2693",
+        "LONGITUDE": "-50.73285",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 14.0,
+        "dap": 0.255,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73293,
+          -23.26916
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26916",
+        "LONGITUDE": "-50.73293",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.1,
+        "height": 8.0,
+        "dap": 0.35,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73273,
+          -23.2693
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2693",
+        "LONGITUDE": "-50.73273",
+        "species": "Base Ocada",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 14.0,
+        "dap": 0.477,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73262,
+          -23.26927
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26927",
+        "LONGITUDE": "-50.73262",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 15.0,
+        "dap": 0.477,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73248,
+          -23.2693
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2693",
+        "LONGITUDE": "-50.73248",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.4,
+        "height": 14.0,
+        "dap": 0.446,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73247,
+          -23.26935
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26935",
+        "LONGITUDE": "-50.73247",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.6,
+        "height": 10.0,
+        "dap": 0.191,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73244,
+          -23.26932
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26932",
+        "LONGITUDE": "-50.73244",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 10.0,
+        "dap": 0.255,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73226,
+          -23.26931
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26931",
+        "LONGITUDE": "-50.73226",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.4,
+        "height": 14.0,
+        "dap": 0.127,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73226,
+          -23.2693
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "category": "ADM/Água Mineral",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2693",
+        "LONGITUDE": "-50.73226",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.3,
+        "height": 7.0,
+        "dap": 0.414,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73127,
+          -23.26649
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26649",
+        "LONGITUDE": "-50.73127",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.2,
+        "height": 8.0,
+        "dap": 0.382,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73029,
+          -23.26793
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26793",
+        "LONGITUDE": "-50.73029",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 2.4,
+        "height": 8.0,
+        "dap": 0.764,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73,
+          -23.26925
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26925",
+        "LONGITUDE": "-50.73",
+        "species": "Invasora",
+        "nome_cientifico": "-",
+        "cap": 0.9,
+        "height": 14.0,
+        "dap": 0.287,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7301,
+          -23.2694
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2694",
+        "LONGITUDE": "-50.7301",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.2,
+        "height": 8.0,
+        "dap": 0.382,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73018,
+          -23.27074
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.27074",
+        "LONGITUDE": "-50.73018",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 8.0,
+        "dap": 0.477,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73023,
+          -23.2709
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2709",
+        "LONGITUDE": "-50.73023",
+        "species": "Invasora",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 8.0,
+        "dap": 0.255,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73027,
+          -23.27096
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.27096",
+        "LONGITUDE": "-50.73027",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.9,
+        "height": 8.0,
+        "dap": 0.605,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73031,
+          -23.27105
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.27105",
+        "LONGITUDE": "-50.73031",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.2,
+        "height": 7.0,
+        "dap": 0.382,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73037,
+          -23.27124
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.27124",
+        "LONGITUDE": "-50.73037",
+        "species": "Invasora",
+        "nome_cientifico": "-",
+        "cap": 0.7,
+        "height": 9.0,
+        "dap": 0.223,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73036,
+          -23.27049
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "category": "ADM/Fazenda",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.27049",
+        "LONGITUDE": "-50.73036",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.2,
+        "height": 6.0,
+        "dap": 0.382,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73236,
+          -23.26643
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26643",
+        "LONGITUDE": "-50.73236",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 1.7,
+        "height": 6.0,
+        "dap": 0.541,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73266,
+          -23.26666
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26666",
+        "LONGITUDE": "-50.73266",
+        "species": "Base Ocada",
+        "nome_cientifico": "-",
+        "cap": 1.7,
+        "height": 8.0,
+        "dap": 0.541,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7329,
+          -23.26698
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26698",
+        "LONGITUDE": "-50.7329",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 4.0,
+        "dap": 0.477,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73285,
+          -23.26735
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26735",
+        "LONGITUDE": "-50.73285",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 1.3,
+        "height": 4.0,
+        "dap": 0.414,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73282,
+          -23.26742
+        ]
+      },
+      "properties": {
+        "id": 97,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26742",
+        "LONGITUDE": "-50.73282",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 1.7,
+        "height": 4.0,
+        "dap": 0.541,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73308,
+          -23.2674
+        ]
+      },
+      "properties": {
+        "id": 98,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.2674",
+        "LONGITUDE": "-50.73308",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 5.0,
+        "dap": 0.477,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7331,
+          -23.26717
+        ]
+      },
+      "properties": {
+        "id": 99,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26717",
+        "LONGITUDE": "-50.7331",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.7,
+        "height": 4.0,
+        "dap": 0.541,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73315,
+          -23.26649
+        ]
+      },
+      "properties": {
+        "id": 100,
+        "category": "Restaurante/ADM",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26649",
+        "LONGITUDE": "-50.73315",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 4.0,
+        "dap": 0.477,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73296,
+          -23.26632
+        ]
+      },
+      "properties": {
+        "id": 101,
+        "category": "Estacionamento",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26632",
+        "LONGITUDE": "-50.73296",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 4.0,
+        "dap": 0.477,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7326,
+          -23.26625
+        ]
+      },
+      "properties": {
+        "id": 102,
+        "category": "Estacionamento",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26625",
+        "LONGITUDE": "-50.7326",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 0.8,
+        "height": 3.0,
+        "dap": 0.255,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73266,
+          -23.26602
+        ]
+      },
+      "properties": {
+        "id": 103,
+        "category": "Estacionamento",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26602",
+        "LONGITUDE": "-50.73266",
+        "species": "Seca",
+        "nome_cientifico": "-",
+        "cap": 1.0,
+        "height": 5.0,
+        "dap": 0.318,
+        "grau_risco": "Médio",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73298,
+          -23.26614
+        ]
+      },
+      "properties": {
+        "id": 104,
+        "category": "Estacionamento",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26614",
+        "LONGITUDE": "-50.73298",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 1.5,
+        "height": 4.0,
+        "dap": 0.477,
+        "grau_risco": "Alto",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73316,
+          -23.26633
+        ]
+      },
+      "properties": {
+        "id": 105,
+        "category": "Estacionamento",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26633",
+        "LONGITUDE": "-50.73316",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.6,
+        "height": 7.0,
+        "dap": 0.191,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.73316,
+          -23.26633
+        ]
+      },
+      "properties": {
+        "id": 106,
+        "category": "Estacionamento",
+        "description": "Árvore mapeada",
+        "LATITUDE": "-23.26633",
+        "LONGITUDE": "-50.73316",
+        "species": "Não identificado",
+        "nome_cientifico": "-",
+        "cap": 0.6,
+        "height": 7.0,
+        "dap": 0.191,
+        "grau_risco": "Baixo",
+        "acao": "Supressão"
+      }
+    }
+  ]
+}
